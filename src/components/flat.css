@@ -1,0 +1,27 @@
+.flats {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.flat {
+  flex-basis: calc(50% - 22px);
+  margin: 10px;
+  cursor: pointer;
+  border: 1px solid #999;
+}
+
+.flat:hover {
+  opacity: 0.8;
+}
+
+.flat-picture {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.flat-title {
+  font-weight: bold;
+  padding: 8px;
+}
